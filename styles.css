@@ -1,0 +1,147 @@
+body {
+    min-height: 100vh;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*First container*/
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header,
+.banner {
+    width: 50%;
+}
+
+.header {
+    padding: 16px;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+.banner {
+    margin: 80px auto;
+    min-height: 250px;
+    display: flex;
+    gap: 2rem;
+}
+
+.banner-left,
+.banner-right {
+    flex-basis: 50%;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.banner-right {
+    min-height: inherit;
+    background-color: #6d747e;
+}
+
+.placeholder {
+    color: #F9FAF8;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Second container*/
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-container {
+    width: 50%;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+
+/*Font*/
+.hero-text {
+    margin: 0;
+    font-size: 48px;
+}
+
+.hero-subtext,
+.info-subtext {
+    font-size: 18px;
+}
+
+.info-subtext {
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo,
+.hero-text {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-link,
+.hero-subtext {
+    color: #E5E7EB;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+/*End of Font*/
